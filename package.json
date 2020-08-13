@@ -1,0 +1,26 @@
+{
+  "name": "js13k-2020",
+  "version": "1.0.0",
+  "description": "a game",
+  "main": "index.js",
+  "scripts": {
+    "test": "http-server game/ -p 8081 -c1",
+    "build": "node tools/build.js game/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrociDB/js13k-2020"
+  },
+  "author": "Bruno Croci",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CrociDB/js13k-2020/issues"
+  },
+  "homepage": "https://github.com/CrociDB/js13k-2020#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "clean-css": "^4.1.8",
+    "html-minifier": "^3.5.3",
+    "uglify-es": "^3.0.28"
+  }
+}
